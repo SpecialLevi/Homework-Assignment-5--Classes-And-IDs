@@ -1,0 +1,62 @@
+body {
+    background-color: 	#f8f8ff;
+}
+
+#main_div {
+    max-width: 80%;
+    margin: 20px auto;
+    text-align: justify;
+}
+
+/* Styling for h1 and i used general selector cause */
+/* its the only h1 i have on the document */
+h1 {
+    text-decoration: underline;
+    font-size: 40px;
+}
+
+h1, h2, h3 {
+    padding-bottom: 5px;
+}
+
+/* Paragraph style */
+p {
+    font-size: 22px;
+}
+
+/* ul and ol styles */
+ul, ol {
+    font-size: 19px;
+}
+
+/* image styles */
+img {
+    width: 40%;
+}
+
+.ingredients {
+    list-style-image: url('./images/list_icon.png');
+}
+
+.preparation_step {
+    list-style: lower-roman;
+}
+
+/* Styles for span elements within the p elements */
+p span {
+    font-style: italic;
+}
+
+/* span that is the last child of a p element */
+p span:last-child {
+    text-decoration: underline;
+}
+/* style for the last p element that has a span element */
+span.underlined {
+    text-decoration: underline;
+}
+
+span.colored {
+    color: #ff0000;
+    font-style: none;
+}
